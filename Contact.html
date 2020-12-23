@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h3>Share your opinion!</h3>
+    <form action="mailto:himanshu3249@gmail.com" method ="post" encrypt=text/plain>
+        <div class = "Contact_details">
+            <table cellpadding = "10">
+                <tr>
+                    <td align="right"><label for="Name">Enter your name : </label></td>
+                    <td><input type="text" id = "Name" name = "Name"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="Email">Enter your Email : </label></td>
+                    <td><input type="email" name="Email" id="Email"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="dob">DOB : </label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><textarea name="opinion" id="opinion" cols="30" rows="10">In my opinion ...</textarea><br></td>
+                </tr>
+            </table>
+            <label for="fileToUpload">Any document to add : </label>
+            <input type="file" name="fileToUpload" id="fileToUpload"><br>
+            <input type="submit" value="Submit!"><br>
+        </div>
+        </form> 
+</body>
+</html>
